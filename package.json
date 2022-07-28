@@ -4,7 +4,8 @@
   "type": "module",
   "description": "console games",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "simple-git-hooks": {
     "pre-commit": "make lint"
