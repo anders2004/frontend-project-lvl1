@@ -4,7 +4,7 @@ import { randomNumber, isEven } from '../lib/lib.js';
 
 const roundsCount = 3;
 let score = 0;
-const gameDescription = 'Answer \"yes\" if the number is even, otherwise answer \"no\".';
+const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const startGame = () => {
   const userName = greeting();
