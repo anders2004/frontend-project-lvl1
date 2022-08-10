@@ -12,3 +12,7 @@ make install
 ## Brain Even
 
 [![asciicast](https://asciinema.org/a/EbAI5jAI6fg6rBKbnr1IAG5k3.svg)](https://asciinema.org/a/EbAI5jAI6fg6rBKbnr1IAG5k3)
+
+## Brain Calc
+
+[![asciicast](https://asciinema.org/a/4D3OJaKsCurjLKYUw8uikwEnU.svg)](https://asciinema.org/a/4D3OJaKsCurjLKYUw8uikwEnU)
