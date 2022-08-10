@@ -4,8 +4,11 @@ install:
 brain-games:
 	node bin/brain-games.js
 
-publish:
-	npm publish --dry-run
+dev:
+	npx simple-git-hooks
 
 lint:
 	npx eslint .
+
+publish:
+	npm publish --dry-run
