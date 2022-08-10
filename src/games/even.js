@@ -7,7 +7,7 @@ const gameData = () => {
   const gameQuestion = randomNumber();
   const expectedAnswer = isEven(gameQuestion) ? 'yes' : 'no';
 
-  return [gameDescription, expectedAnswer];
+  return [gameQuestion, expectedAnswer];
 };
 
 export default () => gameEngine(gameDescription, gameData);
