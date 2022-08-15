@@ -9,10 +9,14 @@
 make install
 ```
 
-## Brain Even
+## Brain even
 
 [![asciicast](https://asciinema.org/a/EbAI5jAI6fg6rBKbnr1IAG5k3.svg)](https://asciinema.org/a/EbAI5jAI6fg6rBKbnr1IAG5k3)
 
-## Brain Calc
+## Brain calculator
 
 [![asciicast](https://asciinema.org/a/4D3OJaKsCurjLKYUw8uikwEnU.svg)](https://asciinema.org/a/4D3OJaKsCurjLKYUw8uikwEnU)
+
+## Brain gcd ( greatest common divisor )
+
+[![asciicast](https://asciinema.org/a/pJhd5B19XiXZe4ubYI9XJJ4xZ.svg)](https://asciinema.org/a/pJhd5B19XiXZe4ubYI9XJJ4xZ)
