@@ -15,7 +15,7 @@ make install
 [![asciicast](https://asciinema.org/a/4D3OJaKsCurjLKYUw8uikwEnU.svg)](https://asciinema.org/a/4D3OJaKsCurjLKYUw8uikwEnU)
 
 ## Brain gcd ( greatest common divisor )
-[![asciicast](https://asciinema.org/a/pJhd5B19XiXZe4ubYI9XJJ4xZ.svg)](https://asciinema.org/a/pJhd5B19XiXZe4ubYI9XJJ4xZ)
+[![asciicast](https://asciinema.org/a/QMehhacw3GY21Mk7F7lexYqzY.svg)](https://asciinema.org/a/QMehhacw3GY21Mk7F7lexYqzY)
 
 ## Brain progression
-[![asciicast](https://asciinema.org/a/iivW8s8YA1pgrSm0df2a5G0aH.svg)](https://asciinema.org/a/iivW8s8YA1pgrSm0df2a5G0aH)
+[![asciicast](https://asciinema.org/a/QMehhacw3GY21Mk7F7lexYqzY.svg)](https://asciinema.org/a/QMehhacw3GY21Mk7F7lexYqzY)
