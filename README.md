@@ -19,3 +19,7 @@ make install
 
 ## Brain progression
 [![asciicast](https://asciinema.org/a/QMehhacw3GY21Mk7F7lexYqzY.svg)](https://asciinema.org/a/QMehhacw3GY21Mk7F7lexYqzY)
+
+## Brain prime
+[![asciicast](https://asciinema.org/a/yzeRtPmehlnhxXAkd2pc0uxRu.svg)](https://asciinema.org/a/yzeRtPmehlnhxXAkd2pc0uxRu)
+
