@@ -19,7 +19,6 @@ const gcd = (num1, num2) => {
   return a;
 };
 
-
 const gameData = () => {
   const firstNumber = randomNumber();
   const secondNumber = randomNumber();
