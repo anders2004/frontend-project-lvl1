@@ -1,13 +1,13 @@
 import gameEngine from '../index.js';
-import randomNumber from '../lib/lib.js';
+import getRandomNumber from '../lib/lib.js';
 
 const gameDescription = 'What is the result of the expression?';
 
 const gameData = () => {
   const operators = ['+', '-', '*'];
-  const firstNumber = randomNumber();
-  const secondNumber = randomNumber();
-  const operator = operators[randomNumber(3)];
+  const firstNumber = getRandomNumber();
+  const secondNumber = getRandomNumber();
+  const operator = operators[getRandomNumber(0, 3)];
   let expectedAnswer = '';
   const gameQuestion = `${firstNumber} ${operator} ${secondNumber}`;
 
