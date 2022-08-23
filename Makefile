@@ -1,3 +1,6 @@
+setup: install publish
+	npm link
+
 install:
 	npm ci
 
