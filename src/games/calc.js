@@ -1,4 +1,4 @@
-import gameEngine from '../index.js';
+import runGame from '../index.js';
 import getRandomNumber from '../lib/lib.js';
 
 const gameDescription = 'What is the result of the expression?';
@@ -32,4 +32,4 @@ const getGameData = () => {
   return [gameQuestion, expectedAnswer];
 };
 
-export default () => gameEngine(gameDescription, getGameData);
+export default () => runGame(gameDescription, getGameData);
