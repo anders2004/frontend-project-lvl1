@@ -4,8 +4,8 @@ import getRandomNumber from '../lib/lib.js';
 const gameDescription = 'Find the greatest common divisor of given numbers.';
 
 const gcd = (num1, num2) => {
-  let a = num1;
-  let b = num2;
+  const a = num1;
+  const b = num2;
 
   if (!b) return a;
 
