@@ -2,24 +2,34 @@ import gameEngine from '../index.js';
 import getRandomNumber from '../lib/lib.js';
 
 const gameDescription = 'What is the result of the expression?';
+const operators = ['+', '-', '*'];
 
-const gameData = () => {
-  const operators = ['+', '-', '*'];
-  const firstNumber = getRandomNumber();
-  const secondNumber = getRandomNumber();
-  const operator = operators[getRandomNumber(0, 3)];
-  let expectedAnswer = '';
-  const gameQuestion = `${firstNumber} ${operator} ${secondNumber}`;
-
-  if (operator === '+') {
-    expectedAnswer = `${firstNumber + secondNumber}`;
-  } else if (operator === '-') {
-    expectedAnswer = `${firstNumber - secondNumber}`;
-  } else if (operator === '*') {
-    expectedAnswer = `${firstNumber * secondNumber}`;
+const calculate = (firstNumber, secondNumber, operator) => {
+  let result = '';
+  switch (operator) {
+    case '+':
+      result = `${firstNumber + secondNumber}`;
+      break;
+    case '-':
+      result = `${firstNumber - secondNumber}`;
+      break;
+    case '*':
+      result = `${firstNumber * secondNumber}`;
+      break;
+    default:
+      throw new Error(`Unknown operator: '${operator}'!`);
   }
 
+  return result;
+};
+
+const getGameData = () => {
+  const firstNumber = getRandomNumber(1, 10);
+  const secondNumber = getRandomNumber(1, 10);
+  const operator = operators[getRandomNumber(0, operators.length)];
+  const gameQuestion = `${firstNumber} ${operator} ${secondNumber}`;
+  const expectedAnswer = calculate(firstNumber, secondNumber, operator);
   return [gameQuestion, expectedAnswer];
 };
 
-export default () => gameEngine(gameDescription, gameData);
+export default () => gameEngine(gameDescription, getGameData);
